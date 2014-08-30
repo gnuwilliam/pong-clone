@@ -25,7 +25,7 @@ namespace PongCloneDemo
 {
 	public class Paddle : Sprite
 	{
-		public Paddle (Texture2D texture, Vector2 location) : base(texture, location)
+		public Paddle (Texture2D texture, Vector2 location) : base (texture, location)
 		{
 
 		}

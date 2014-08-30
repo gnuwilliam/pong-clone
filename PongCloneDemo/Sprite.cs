@@ -15,7 +15,7 @@ namespace PongCloneDemo
 			this.location = location;
 		}
 
-		public void Draw(SpriteBatch spriteBatch)
+		public void Draw (SpriteBatch spriteBatch)
 		{
 			spriteBatch.Draw (texture, location, Color.White);
 		}

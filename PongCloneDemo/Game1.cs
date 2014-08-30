@@ -52,10 +52,10 @@ namespace PongCloneDemo
 			base.Initialize ();
 		}
 
-		protected override void LoadContent()
+		protected override void LoadContent ()
 		{
 			spriteBatch = new SpriteBatch (graphics.GraphicsDevice);
-			paddle = new Paddle(Content.Load<Texture2D>("player_paddle"), Vector2.Zero);
+			paddle = new Paddle (Content.Load<Texture2D> ("player_paddle"), Vector2.Zero);
 		}
 
 		#endregion
